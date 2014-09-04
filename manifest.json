@@ -1,0 +1,22 @@
+{
+  "name": "Sample 2",
+  "description": "Sample 2",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "skin/images/icon128.png"
+  },
+  "browser_action": {
+    "default_title": "Hello world",
+    "default_icon": {
+      "19": "skin/images/icon24.png",
+      "38": "skin/images/icon32.png"
+    },
+    "default_popup": "ui/popup.html"
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "tabs"
+  ]
+}
